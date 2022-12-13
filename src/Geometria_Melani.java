@@ -227,6 +227,8 @@ import static java.lang.Math.pow;
                     setAreaParalelo(result_paralelo);
                     System.out.println("La Area del Paralelogramo es: " + getAreaParalelo());
                     break;
+                default:
+                    System.out.println("Fuera del Limite!!");
             }
 
 
@@ -332,6 +334,7 @@ import static java.lang.Math.pow;
 
                     break;
                 default:
+                    System.out.println("Fuera del Limite!!");
             }
         }
 
@@ -418,6 +421,7 @@ import static java.lang.Math.pow;
                     System.out.println("El Volumen de la Esfera es: "+getVolEsfera());
                     break;
                 default:
+                    System.out.println("Fuera del Limite!!");
             }
         }
 

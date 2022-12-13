@@ -6,9 +6,9 @@ public class Main {
             int op=0;
             int contin;
             do {
-                System.out.print("\t-/-/-/-/-/ M E N U /-/-/-/-/-");
+                System.out.print("\t\033[36m-/-/-/-/-/ M E N U /-/-/-/-/-");
                 System.out.println("\n");
-                System.out.println("|/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-|");
+                System.out.println("\033[36m|/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-|");
                 System.out.println("|\t1) Areas                    |");
                 System.out.println("|\t2) Perimetros               |");
                 System.out.println("|\t3) Volumen                  |");

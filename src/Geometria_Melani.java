@@ -139,7 +139,7 @@ import static java.lang.Math.pow;
         public void Ingreso_Areas()
         {
             int op = 0;
-            System.out.println("\t^_^_^_^_^_^_^  A-R-E-A-S  ^_^_^_^_^_^_^");
+            System.out.println("\t\033[32m^_^_^_^_^_^_^  A-R-E-A-S  ^_^_^_^_^_^_^");
             System.out.println("1.- Area Cuadrado ");
             System.out.println("2.- Area Triangulo ");
             System.out.println("3.- Area Rectangulo ");
@@ -238,7 +238,7 @@ import static java.lang.Math.pow;
         {
 
             int opcion = 0;
-            System.out.println("\t^_^_^_^_^_^_^ P.E.R.I.M.E.T.R.O.S ^_^_^_^_^_^_^");
+            System.out.println("\t\u001B[34m^_^_^_^_^_^_^ P.E.R.I.M.E.T.R.O.S ^_^_^_^_^_^_^");
             System.out.println("1.- Perimetro Del Rombo ");
             System.out.println("2.- Perimetro Del Trapecio ");
             System.out.println("3.- Perimetro Del Circulo ");
@@ -340,7 +340,7 @@ import static java.lang.Math.pow;
 
         public void Ingreso_Volumen(){
             int opciones = 0;
-            System.out.println("\t^_^_^_^_^_^_^ V-O-L-U-M-E-N ^_^_^_^_^_^_^");
+            System.out.println("\t\u001B[32m^_^_^_^_^_^_^ V-O-L-U-M-E-N ^_^_^_^_^_^_^");
             System.out.println("1.- Volumen Del Cubo ");
             System.out.println("2.- Volumen Del Cilindro ");
             System.out.println("3.- Volumen Del Cono ");
